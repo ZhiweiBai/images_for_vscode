@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="191px" preserveAspectRatio="none" style="width:298px;height:191px;background:#FFFFFF;" version="1.1" viewBox="0 0 298 191" width="298px" zoomAndPan="magnify"><defs/><g><rect fill="#F1F1F1" height="36.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="76" x="10" y="76.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="20" y="100.0234">设计模式</text><rect fill="#F1F1F1" height="36.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="150" x="136" y="20"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="146" y="43.5352">面向对象分析 (OOA)</text><path d="M86,94.7324 L96,94.7324 C111,94.7324 111,38.2441 126,38.2441 L136,38.2441 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="36.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="150" x="136" y="76.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="146" y="100.0234">面向对象设计 (OOD)</text><path d="M86,94.7324 L96,94.7324 C111,94.7324 111,94.7324 126,94.7324 L136,94.7324 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="36.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="148" x="136" y="132.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="146" y="156.5117">面向对象编程 (OOP)</text><path d="M86,94.7324 L96,94.7324 C111,94.7324 111,151.2207 126,151.2207 L136,151.2207 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[5dd8bf1f5f73376499765b249edbccea]
+@startmindmap
+* 设计模式
+** 面向对象分析 (OOA)
+** 面向对象设计 (OOD)
+** 面向对象编程 (OOP)
+@endmindmap
+
+PlantUML version 1.2022.5(Sat Apr 30 18:55:52 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: CN
+--></g></svg>
