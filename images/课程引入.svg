@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="140px" preserveAspectRatio="none" style="width:329px;height:140px;background:#FFFFFF;" version="1.1" viewBox="0 0 329 140" width="329px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="7" y="88"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="83" y="93"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="81" y="95"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="81" y="99"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="22" y="121.5352">高等数学</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><g id="elem_B"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="7" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="83" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="81" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="81" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="22" y="40.5352">数学分析</text></g><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><g id="elem_C"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="85" x="231" y="88"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="296" y="93"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="294" y="95"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="294" y="99"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="246" y="121.5352">接受 ∞</text></g><!--MD5=[118f42602524ad482f02b27ef22fc383]
+entity D--><g id="elem_D"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="224" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="303" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="301" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="301" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="239" y="40.5352">讲清楚 ∞</text></g><!--MD5=[635162b0568dccf9b81699e51957888e]
+link B to D--><g id="link_B_D"><path d="M103.24,30 C132.68,30 171.04,30 203.8,30 " fill="none" id="B-to-D" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="203.86,23,223.86,30,203.86,37,203.86,23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e1650921a81fac0037ec207a42ac4e7e]
+link A to C--><g id="link_A_C"><path d="M103.24,111 C134.77,111 176.55,111 210.71,111 " fill="none" id="A-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="210.84,104,230.84,111,210.84,118,210.84,104" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e8421b91b933595eb424aa0dc8c975ed]
+@startuml
+left to right direction
+' top to bottom direction
+[高等数学] as A
+[数学分析] as B
+[接受 ∞] as C
+[讲清楚 ∞] as D
+B - - -|> D
+A - - -|> C
+@enduml
+
+@startuml
+left to right direction
+[高等数学] as A
+[数学分析] as B
+[接受 ∞] as C
+[讲清楚 ∞] as D
+B - - -|> D
+A - - -|> C
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: CN
+--></g></svg>
