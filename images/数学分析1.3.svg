@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="165px" preserveAspectRatio="none" style="width:282px;height:165px;background:#FFFFFF;" version="1.1" viewBox="0 0 282 165" width="282px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><g id="elem_A"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="97" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="173" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="171" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="171" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="112" y="40.5352">确界定理</text></g><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><g id="elem_B"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="7" y="113"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="111" y="118"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="109" y="120"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="109" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="22" y="146.5352">单调收敛定理</text></g><!--MD5=[16fab723be418f7eaf2ea4bd895a8e51]
+entity C--><g id="elem_C"><rect fill="#F1F1F1" height="46.4883" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="166" y="113"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="256" y="118"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="254" y="120"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="254" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="181" y="146.5352">平方根存在</text></g><!--MD5=[5e2eec62a50b26b6b0db6c12e4ee289c]
+link A to B--><g id="link_A_B"><path d="M128.88,53.06 C119.61,65.74 107.71,82.03 96.96,96.74 " fill="none" id="A-to-B" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="102.55,100.96,85.09,112.98,91.24,92.7,102.55,100.96" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e1650921a81fac0037ec207a42ac4e7e]
+link A to C--><g id="link_A_C"><path d="M161.12,53.06 C170.39,65.74 182.29,82.03 193.04,96.74 " fill="none" id="A-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="198.76,92.7,204.91,112.98,187.45,100.96,198.76,92.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cd25d8247324207f828a4db9f58ed69d]
+link B to C--><g id="link_B_C"><path d="M131.05,136 C135.94,136 140.83,136 145.72,136 " fill="none" id="B-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="145.83,129,165.83,136,145.83,143,145.83,129" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[efa1457de727ea01f06ea0e38d4da335]
+@startuml
+' left to right direction
+top to bottom direction
+[确界定理] as A
+[单调收敛定理] as B
+[平方根存在] as C
+A - -|> B
+A - -|> C
+B -|> C
+@enduml
+
+@startuml
+top to bottom direction
+[确界定理] as A
+[单调收敛定理] as B
+[平方根存在] as C
+A - -|> B
+A - -|> C
+B -|> C
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: CN
+--></g></svg>
